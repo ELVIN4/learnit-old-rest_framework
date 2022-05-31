@@ -1,0 +1,7 @@
+{% extends "rest_framework/base.html" %}
+{% block branding %}
+    <a class="navbar-brand" rel="nofollow" href="#"><strong>LearnIt API</strong></a>
+    <a class="navbar-brand" rel="nofollow" href="{% url 'redoc' %}">ReDoc</a>
+    <a class="navbar-brand" rel="nofollow" href="{% url 'swagger-ui' %}">Swagger-ui</a>
+    <a class="navbar-brand" rel="nofollow" href="{% url 'schema' %}">Yaml</a>
+{% endblock %}

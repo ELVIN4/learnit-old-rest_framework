@@ -1,2 +1,8 @@
 .env
 site
+__pycache__
+migrations
+*.pyc
+setenv.*
+*.sqlite3
+.coverage
